@@ -1,17 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package car2driver;
 
-/**
- *
- * @author 4800590195
- */
 class Car2 {
-    
- private String make;
+
+    private String make;
     private int year;
     private String color;
 
@@ -31,4 +22,3 @@ class Car2 {
         return this.make.equals(otherCar.make) && this.year == otherCar.year && this.color.equals(otherCar.color);
     }
 }
-
