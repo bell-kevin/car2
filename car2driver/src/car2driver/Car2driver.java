@@ -3,7 +3,6 @@ package car2driver;
 public class Car2driver {
 
     public static void main(String[] args) {
-        // TODO code application logic here
         Car2 nathanCar = new Car2();
         Car2 nickCar = new Car2();
         nathanCar.setMake("Audi");
@@ -14,6 +13,8 @@ public class Car2driver {
         nickCar.setColor("green");
         if (nathanCar.equals(nickCar)) {
             System.out.println("Cars have identical features");
+        } else {
+            System.out.println("not the same");
         }
     }
 }
