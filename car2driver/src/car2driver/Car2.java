@@ -19,6 +19,6 @@ class Car2 {
     }
 
     public boolean equals(Car2 otherCar) {
-        return this.make.equals(otherCar.make) && this.year == otherCar.year && this.color.equals(otherCar.color);
+        return this.make.equalsIgnoreCase(otherCar.make) && this.year == otherCar.year && this.color.equalsIgnoreCase(otherCar.color);
     }
 }
