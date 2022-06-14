@@ -6,7 +6,6 @@ public class Car2driver {
         // TODO code application logic here
         Car2 nathanCar = new Car2();
         Car2 nickCar = new Car2();
-
         nathanCar.setMake("Audi");
         nathanCar.setYear(2012);
         nathanCar.setColor("green");
